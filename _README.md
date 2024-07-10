@@ -3,6 +3,8 @@ Hello, welcome to my project! This is a personal endeavor I have been working on
 
 Also, I could not publicly share the original git repository as it contains sensitive information such as API keys for SendGrid, email addresses, and folder paths, which are visible throughout the commit history. To protect this private information, I decided to create a new repository where private information is not shown, so neither are commits. Additionally, in the original repository, I used SQL views which would not make sense for other people, so I have replaced them with full SQL scripts to ensure completeness.
 
+I have also added exported excel file example to the repository, so you can download and view the output of the script.
+
 ## OVERVIEW
 This script performs an Extract, Transform, Load (ETL) process to scrape rental offers from the website "bezrealitky.cz". The script extracts data from multiple pages, processes and transforms the data, and loads it into a PostgreSQL database. Additionally, it exports the data to an Excel file and sends an email notification with the latest offers.
 
